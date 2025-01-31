@@ -1,0 +1,30 @@
+body {
+    background-color: #2e3b3e; /* Dark grayish/greenish background color */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+h1, h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+}
