@@ -9,17 +9,21 @@ body {
     background-color: #222;
     padding: 10px 0;
     text-align: center;
+    position: fixed; /* Fix the header at the top */
+    width: 100%; /* Ensure the header spans the full width of the viewport */
+    top: 0; /* Position the header at the top */
+    z-index: 1000; /* Ensure the header is above other content */
+}
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 80px auto 40px; /* Center the container horizontally and add top margin to avoid overlap */
+    padding: 20px; /* Padding inside the container */
 }
 .header a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
     font-size: 18px;
-}
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
 }
 h1, h2 {
     border-bottom: 2px solid white;
